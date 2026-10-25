@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <meta name="theme-color" content="#16100C" />
+    <meta name="description" content="Yapify — Tu app financiera todo en uno" />
+
+    <!-- Prevent flash of unstyled content on native -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+    <title>Yapify</title>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- Yapify typography: IBM Plex Sans — fuente única empresarial para toda la app -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600;700&display=swap" />
+
+    <link rel="stylesheet" href="/src/styles/main.css" />
+
+    <!-- Culqi Checkout v4 — se carga lazy desde el feature cart al abrir el
+         popup de pago. NO se inyecta acá para no bloquear el initial load. -->
+  </head>
+  <body>
+    <!--
+    Shell Zones — equivalent to Yapify zones in glomo-pe.
+    The router mounts/unmounts Web Components into these zones.
+    Components never touch the DOM directly — the shell handles zone management.
+  -->
+    <div id="yapify-app">
+      <!-- Header zone: yapify-header and navigation handlers -->
+      <div data-zone="app__header" class="yapify-zone yapify-zone--header"></div>
+
+      <!-- Main content zone: page-specific UI and DM components -->
+      <div data-zone="app__main" class="yapify-zone yapify-zone--main"></div>
+
+      <!-- Transactional zone: modals, bottom sheets, toasts -->
+      <div data-zone="app__transactional" class="yapify-zone yapify-zone--transactional"></div>
+    </div>
+
+    <!-- Shared bottom nav — outside router zones, managed by main.js -->
+    <yapify-bottom-nav id="yapify-nav" hidden></yapify-bottom-nav>
+
+    <!-- Cart FAB — flotante bottom-right, visible en modo usuario si hay items -->
+    <yapify-cart-fab id="yapify-cart-fab" hidden></yapify-cart-fab>
+
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>

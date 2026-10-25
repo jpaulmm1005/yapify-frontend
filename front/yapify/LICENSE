@@ -1,0 +1,41 @@
+LICENCIA DE SOFTWARE PROPIETARIO — YAPIFY
+==========================================
+
+Copyright (c) 2026 Luis Fernando Luque Nieto y Jean Paul Mamani Motta.
+Todos los derechos reservados.
+
+1. TITULARIDAD. El software "Yapify" —incluyendo su código fuente, su
+   aplicación móvil, su panel administrativo, sus servicios de backend,
+   sus modelos de inteligencia artificial, su documentación y sus
+   recursos gráficos— es obra original de sus autores, desarrollada como
+   parte del proyecto de tesis "Aplicación móvil de fidelización
+   multitienda con inteligencia artificial para la retención de clientes
+   en comercios minoristas de Arequipa" (Universidad La Salle, Arequipa,
+   Perú).
+
+2. DERECHOS RESERVADOS. Queda prohibida la reproducción, distribución,
+   comunicación pública, transformación, ingeniería inversa,
+   descompilación o cualquier otra forma de explotación total o parcial
+   del software, por cualquier medio, sin la autorización previa, expresa
+   y por escrito de los titulares.
+
+3. USO ACADÉMICO. Se autoriza la consulta del código y de la
+   documentación con fines exclusivamente académicos y de evaluación,
+   en el marco de la sustentación y revisión de la tesis, sin que ello
+   implique cesión alguna de derechos.
+
+4. COMPONENTES DE TERCEROS. El software se apoya en bibliotecas y
+   servicios de terceros (NestJS, Lit, Capacitor, PostgreSQL, Prisma,
+   LightFM, scikit-learn, entre otros), cada uno sujeto a su propia
+   licencia. Esta licencia aplica únicamente al código y recursos
+   originales de los autores.
+
+5. GARANTÍA. El software se entrega "TAL CUAL" (AS IS), sin garantías de
+   ningún tipo, expresas o implícitas, incluyendo pero no limitándose a
+   garantías de comerciabilidad o idoneidad para un propósito
+   particular. En ningún caso los autores serán responsables por daños
+   derivados del uso del software.
+
+6. LEGISLACIÓN APLICABLE. Esta licencia se rige por la legislación de la
+   República del Perú, en particular por el Decreto Legislativo N.º 822,
+   Ley sobre el Derecho de Autor.

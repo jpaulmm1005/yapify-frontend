@@ -1,0 +1,213 @@
+{
+  "fallback": {
+    "es-PE": {
+      "title": "Yapify",
+      "lead": "Este documento no está disponible.",
+      "updated": "",
+      "sections": []
+    }
+  },
+  "terms": {
+    "es-PE": {
+      "title": "Términos y condiciones",
+      "lead": "Reglas de uso de la plataforma Yapify para clientes finales y comercios afiliados.",
+      "updated": "Última actualización: 14 de mayo de 2026",
+      "sections": [
+        {
+          "heading": "Identificación del responsable",
+          "paragraphs": [
+            "Esta plataforma es operada por Yapify, proyecto piloto académico de la Carrera de Ingeniería de Software de la Universidad La Salle, Arequipa, con domicilio en Ca. Cuba 105, Alto Selva Alegre, Perú. Contacto: jpaulmm1005@gmail.com · +51 944 403 159.",
+            "Yapify se encuentra en proceso de constitución formal. Durante el piloto académico, estos términos rigen la relación entre la plataforma y sus usuarios."
+          ]
+        },
+        {
+          "heading": "Aceptación de los términos",
+          "paragraphs": [
+            "Usar la aplicación móvil, la web o cualquier servicio asociado a Yapify implica que aceptas plenamente y sin reservas estos Términos y Condiciones, junto con la Política de Privacidad. Si no estás de acuerdo con alguno de los puntos, te pedimos no usar la plataforma."
+          ]
+        },
+        {
+          "heading": "Servicios ofrecidos",
+          "paragraphs": [
+            "Yapify es una plataforma de fidelización multitienda que te permite:"
+          ],
+          "bullets": [
+            "Acumular puntos de lealtad validando tus compras con códigos QR generados en caja.",
+            "Canjear puntos por productos, servicios, descuentos y experiencias del catálogo de comercios afiliados.",
+            "Recibir promociones, cupones, eventos y ventas flash personalizados mediante recomendación automatizada.",
+            "Comprar productos y servicios desde la app, con flujo de pago integrado."
+          ]
+        },
+        {
+          "heading": "Cuenta de usuario",
+          "paragraphs": [
+            "Para usar las funcionalidades autenticadas (acumulación de puntos, compras, canjes) tienes que registrarte con una cuenta de Google o un correo electrónico válido. Eres responsable de mantener la confidencialidad de tus credenciales y de toda actividad realizada bajo tu cuenta.",
+            "Yapify se reserva el derecho de suspender o eliminar cuentas que infrinjan estos términos, presenten actividad fraudulenta o intenten manipular el sistema de puntos."
+          ]
+        },
+        {
+          "heading": "Sistema de puntos",
+          "bullets": [
+            "Los puntos se acreditan después de validar una compra con QR en el comercio afiliado.",
+            "Los puntos no tienen valor monetario ni son convertibles en dinero. Son canjeables únicamente por los beneficios publicados en la plataforma.",
+            "Los puntos pueden tener fecha de caducidad por lote, indicada al momento de su acreditación.",
+            "Yapify y los comercios afiliados se reservan el derecho de modificar, suspender o cancelar el programa de puntos con aviso previo de 30 días calendario."
+          ]
+        },
+        {
+          "heading": "Compras y pagos",
+          "paragraphs": [
+            "Las compras hechas a través de la plataforma se procesan mediante la pasarela de pagos Culqi. Yapify no almacena datos de tarjetas: los procesa directamente Culqi bajo estándares PCI-DSS.",
+            "El precio mostrado en el catálogo incluye IGV cuando aplique. Los costos de despacho, cuando correspondan, se indican antes de confirmar la orden.",
+            "La emisión del comprobante de pago (boleta o factura electrónica) corresponde al comercio afiliado que efectúa la venta, no a Yapify."
+          ]
+        },
+        {
+          "heading": "Propiedad intelectual",
+          "paragraphs": [
+            "El nombre Yapify, su logotipo, paleta cromática, diseño editorial, código fuente y demás elementos distintivos son propiedad de sus autores. Está prohibida su reproducción total o parcial sin autorización expresa.",
+            "Los contenidos publicados por los comercios afiliados (fotos de productos, descripciones, marcas) son propiedad de cada comercio y se publican bajo su responsabilidad."
+          ]
+        },
+        {
+          "heading": "Protección de datos personales",
+          "paragraphs": [
+            "Yapify trata los datos personales de sus usuarios conforme a la Ley N° 29733 — Ley de Protección de Datos Personales y su reglamento. El detalle de qué datos recopilamos, para qué y con quién los compartimos está en la Política de Privacidad.",
+            "Puedes ejercer en cualquier momento tus derechos de acceso, rectificación, cancelación y oposición escribiendo a jpaulmm1005@gmail.com."
+          ]
+        },
+        {
+          "heading": "Limitación de responsabilidad",
+          "paragraphs": [
+            "Yapify actúa como intermediario tecnológico entre clientes y comercios afiliados. La calidad, despacho, garantía y cumplimiento de los productos o servicios adquiridos son responsabilidad exclusiva de cada comercio.",
+            "Yapify no se responsabiliza por interrupciones temporales del servicio causadas por mantenimiento, fallas de terceros, eventos de fuerza mayor o causas ajenas a su control."
+          ]
+        },
+        {
+          "heading": "Modificaciones",
+          "paragraphs": [
+            "Yapify se reserva el derecho de modificar estos términos en cualquier momento. Los cambios se notifican mediante la plataforma con al menos 15 días de anticipación. El uso continuado después de la entrada en vigor constituye aceptación tácita."
+          ]
+        },
+        {
+          "heading": "Legislación aplicable y jurisdicción",
+          "paragraphs": [
+            "Estos términos se rigen por las leyes de la República del Perú, en especial por la Ley N° 29571 — Código de Protección y Defensa del Consumidor. Cualquier controversia será sometida a la jurisdicción de los jueces y tribunales de la ciudad de Arequipa, sin perjuicio de tu derecho a recurrir a INDECOPI."
+          ]
+        }
+      ]
+    }
+  },
+  "privacy": {
+    "es-PE": {
+      "title": "Política de privacidad",
+      "lead": "Qué datos personales tratamos, para qué los usamos y cómo ejerces tus derechos.",
+      "updated": "Última actualización: 14 de mayo de 2026",
+      "sections": [
+        {
+          "heading": "Responsable del tratamiento",
+          "paragraphs": [
+            "El responsable del banco de datos personales es Yapify, proyecto piloto académico de la Carrera de Ingeniería de Software de la Universidad La Salle, Arequipa, con domicilio en Ca. Cuba 105, Alto Selva Alegre, Perú. Contacto para asuntos de privacidad: jpaulmm1005@gmail.com · +51 944 403 159.",
+            "El tratamiento se realiza conforme a la Ley N° 29733 — Ley de Protección de Datos Personales y su reglamento aprobado por D.S. N° 003-2013-JUS."
+          ]
+        },
+        {
+          "heading": "Datos que recopilamos",
+          "paragraphs": [
+            "Solo tratamos los datos necesarios para operar el programa de fidelización:"
+          ],
+          "bullets": [
+            "Datos de cuenta: nombre, correo electrónico, foto de perfil e identificador único, obtenidos de tu cuenta de Google o del registro con correo.",
+            "Datos de perfil: los que completas voluntariamente al crear tu cuenta, como fecha de nacimiento, género y ciudad.",
+            "Actividad en la plataforma: puntos acumulados y canjeados, compras, órdenes, cupones, tiendas que sigues y las vistas y clics que haces en el catálogo.",
+            "Datos técnicos del dispositivo: modelo, sistema operativo, idioma y el token de notificaciones push cuando aceptas recibirlas.",
+            "Datos de pago: Culqi procesa y almacena los datos de tu tarjeta. Yapify solo conserva el identificador de la transacción, el monto y el estado de la orden."
+          ]
+        },
+        {
+          "heading": "Para qué usamos tus datos",
+          "bullets": [
+            "Autenticarte y mantener tu sesión activa.",
+            "Acreditar, mostrar y canjear tus puntos de lealtad en los comercios afiliados.",
+            "Procesar tus compras y darles seguimiento hasta la entrega.",
+            "Personalizar las recomendaciones de tiendas, productos, cupones y eventos que ves en el inicio.",
+            "Enviarte notificaciones transaccionales sobre tus puntos, canjes y órdenes.",
+            "Medir el uso de la aplicación de forma agregada para corregir errores y mejorar el servicio."
+          ]
+        },
+        {
+          "heading": "Consentimiento y base legal",
+          "paragraphs": [
+            "El tratamiento se sustenta en el consentimiento que otorgas al crear tu cuenta y aceptar estos documentos, y en la ejecución de la relación de consumo cuando compras o canjeas a través de la plataforma.",
+            "Puedes retirar tu consentimiento en cualquier momento. Retirarlo implica que no podremos seguir operando tu cuenta ni tu saldo de puntos."
+          ]
+        },
+        {
+          "heading": "Con quién compartimos tus datos",
+          "paragraphs": [
+            "No vendemos tus datos personales. Los compartimos únicamente con los encargados de tratamiento necesarios para prestar el servicio:"
+          ],
+          "bullets": [
+            "Comercios afiliados: reciben tu identificador, tu nombre y el detalle de tus compras y canjes en su tienda, para acreditarte los puntos y atender tu pedido.",
+            "Google (Firebase Authentication y Cloud Messaging): autenticación de cuentas y envío de notificaciones push.",
+            "Culqi: procesamiento de pagos con tarjeta.",
+            "PostHog: analítica de producto sobre el uso de la aplicación.",
+            "Proveedores de infraestructura en la nube donde se alojan la aplicación y la base de datos."
+          ]
+        },
+        {
+          "heading": "Transferencia internacional",
+          "paragraphs": [
+            "Algunos de estos encargados procesan y almacenan información en servidores ubicados fuera del Perú, principalmente en Estados Unidos. Al aceptar esta política otorgas tu consentimiento para dicho flujo transfronterizo, que se realiza bajo los acuerdos de tratamiento de datos de cada proveedor."
+          ]
+        },
+        {
+          "heading": "Notificaciones push",
+          "paragraphs": [
+            "Las notificaciones push requieren tu autorización expresa desde el sistema operativo del dispositivo. Puedes revocarla cuando quieras desde los ajustes del sistema o del navegador; al hacerlo, dejamos de usar el token asociado a ese dispositivo."
+          ]
+        },
+        {
+          "heading": "Recomendación automatizada",
+          "paragraphs": [
+            "El inicio de la aplicación ordena el contenido con un sistema de recomendación que usa tu historial de vistas, clics, seguimientos y canjes. Esta personalización no produce efectos jurídicos sobre ti ni te excluye del acceso a ningún beneficio publicado: solo cambia el orden en que ves el catálogo.",
+            "Puedes oponerte a la personalización escribiéndonos; en ese caso verás el catálogo sin ordenamiento personalizado."
+          ]
+        },
+        {
+          "heading": "Plazo de conservación",
+          "paragraphs": [
+            "Conservamos tus datos mientras tu cuenta esté activa. Si eliminas tu cuenta, borramos tus datos personales dentro de los 30 días calendario siguientes, salvo aquellos que debamos conservar por obligación legal o tributaria vinculada a tus compras.",
+            "La información de uso que alimenta las métricas agregadas se conserva de forma anonimizada, sin posibilidad de asociarla a tu persona."
+          ]
+        },
+        {
+          "heading": "Seguridad",
+          "paragraphs": [
+            "Aplicamos medidas técnicas y organizativas para proteger tus datos: tráfico cifrado en tránsito, autenticación delegada a un proveedor especializado, control de acceso por roles y segregación de los datos de cada comercio afiliado.",
+            "Ningún sistema es infalible. Si detectamos un incidente que afecte tus datos personales, te informaremos por los medios de contacto que tengamos registrados."
+          ]
+        },
+        {
+          "heading": "Menores de edad",
+          "paragraphs": [
+            "La plataforma está dirigida a personas mayores de 18 años. No recopilamos deliberadamente datos de menores. Si detectamos una cuenta de un menor sin autorización de sus padres o tutores, la eliminamos."
+          ]
+        },
+        {
+          "heading": "Tus derechos",
+          "paragraphs": [
+            "Tienes derecho de acceso, rectificación, cancelación y oposición sobre tus datos personales, además de los derechos de información y de tratamiento objetivo que reconoce la Ley N° 29733.",
+            "Para ejercerlos escríbenos a jpaulmm1005@gmail.com desde el correo con el que te registraste. Respondemos dentro de los plazos legales. Si consideras que no atendimos tu solicitud, puedes acudir a la Autoridad Nacional de Protección de Datos Personales del Ministerio de Justicia y Derechos Humanos."
+          ]
+        },
+        {
+          "heading": "Cambios en esta política",
+          "paragraphs": [
+            "Podemos actualizar esta política cuando cambien los servicios o la normativa aplicable. Publicamos los cambios en esta misma pantalla y actualizamos la fecha del encabezado; si el cambio es sustancial, te avisamos dentro de la aplicación antes de que entre en vigor."
+          ]
+        }
+      ]
+    }
+  }
+}

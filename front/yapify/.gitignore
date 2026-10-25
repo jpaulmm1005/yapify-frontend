@@ -1,0 +1,28 @@
+node_modules/
+build/
+.vite/
+.cache/
+package-lock.json
+*.log
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+
+# Capacitor
+android/app/build/
+android/.gradle/
+android/build/
+android/local.properties
+android/captures/
+android/.idea/
+ios/App/build/
+ios/App/Pods/
+ios/DerivedData/
+
+.vercel
+
+# Build artifacts (APK)
+*.apk
+.env*

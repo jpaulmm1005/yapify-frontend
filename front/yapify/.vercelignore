@@ -1,0 +1,17 @@
+node_modules
+src
+scripts
+public
+android
+ios
+.git
+.env
+.env.*
+*.log
+package-lock.json
+vite.config.js
+vite-plugin-auto-import.js
+capacitor.config.json
+.editorconfig
+.prettierrc
+.npmrc

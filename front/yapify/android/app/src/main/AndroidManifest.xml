@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:networkSecurityConfig="@xml/network_security_config"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|smallestScreenSize|screenLayout|uiMode|navigation"
+            android:name=".MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBarLaunch"
+            android:launchMode="singleTask"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <!-- Vuelta del checkout de Mercado Pago a la app.
+
+                 El checkout se abre FUERA del WebView (Chrome Custom Tabs) y la
+                 back_url apunta al backend, que confirma el pago y redirige.
+                 Sin este intent-filter ese redirect terminaba en la web de
+                 Yapify DENTRO de la Custom Tab: el usuario se quedaba en el
+                 navegador, con la app nativa debajo y `Browser.close()` que en
+                 Android es no-op documentado.
+
+                 Con el esquema propio declarado, el backend puede redirigir a
+                 `yapify://checkout/return?order=N` y el sistema devuelve el
+                 control a MainActivity (que es `singleTask`, así que llega por
+                 `onNewIntent` y Capacitor lo emite como `appUrlOpen`).
+
+                 Sin `android:autoVerify`: esto es un esquema propio, no un App
+                 Link https — no hay dominio que verificar y declararlo haría
+                 fallar la verificación. BROWSABLE es lo que permite que el
+                 navegador dispare el intent; DEFAULT, que el sistema lo resuelva
+                 sin pedir desambiguación. -->
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+                <data android:scheme="yapify" android:host="checkout" android:pathPrefix="/return" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths" />
+        </provider>
+    </application>
+
+    <!-- Permissions -->
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- Cámara: el escáner de QR (validación de entregas y otorgamiento de
+         puntos) abre la cámara desde el WebView vía getUserMedia. Sin este
+         permiso declarado, Android no muestra el diálogo y la llamada falla
+         directamente con permission-denied. -->
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <!-- La cámara no es obligatoria para instalar: el resto de la app
+         funciona sin ella y el escáner degrada a ingreso manual del código. -->
+    <uses-feature android:name="android.hardware.camera" android:required="false" />
+    <uses-feature android:name="android.hardware.camera.autofocus" android:required="false" />
+</manifest>

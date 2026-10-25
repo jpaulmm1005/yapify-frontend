@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "513281754901",
+    "project_id": "yapify-beb54",
+    "storage_bucket": "yapify-beb54.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:513281754901:android:e5f88274c019b6eeaccb1c",
+        "android_client_info": {
+          "package_name": "com.yapify.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "513281754901-38ga5m788c0dcug8tku8l2b8iggihogl.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.yapify.app",
+            "certificate_hash": "3c85f96401b2fbfca4db3856c99b8ba0257742be"
+          }
+        },
+        {
+          "client_id": "513281754901-dauship2em3e3gto813uggqc3pglkej5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3kTLkBtYQSR-W7NqhKuF1Wb3NiqqcikU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "513281754901-dauship2em3e3gto813uggqc3pglkej5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
